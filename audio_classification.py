@@ -1,0 +1,5 @@
+audio_classifier = pipeline("audio-classification")
+audio_result = audio_classifier("/content/promo-music-showreel-trailer-demo-ads-background-intro-theme-270169.mp3")
+print("Audio Classification:")
+print(audio_result)
+print()

@@ -1,0 +1,5 @@
+translator = pipeline("translation_en_to_fr")
+translation_result = translator("Hello, how are you?", max_length=40)
+print("Translation:")
+print(translation_result)
+print()

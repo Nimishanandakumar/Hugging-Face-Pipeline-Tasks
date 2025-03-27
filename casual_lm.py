@@ -1,0 +1,5 @@
+causal_lm = pipeline("text-generation", model="gpt2")
+causal_result = causal_lm("The future of AI is", max_length=30)
+print("Causal Language Modeling:")
+print(causal_result[0]['generated_text'])
+print()

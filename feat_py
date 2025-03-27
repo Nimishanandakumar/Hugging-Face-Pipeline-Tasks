@@ -1,0 +1,5 @@
+feature_extractor = pipeline("feature-extraction")
+features = feature_extractor("Hugging Face is amazing!")
+print("Feature Extraction:")
+print(features)
+print()
